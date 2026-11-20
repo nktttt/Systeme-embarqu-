@@ -23,7 +23,7 @@ Cet instrument est un synthétiseur monodique inspiré du thérémine[cite: 6]. 
 | **A3** | Curseur (broche centrale) du potentiomètre de volume (broches extérieures sur **5V** et **GND**)[cite: 3, 6] |
 | **5V / GND** | Alimentation générale sur les rails de la plaque d'essai |
 
-*(https://github.com/nktttt/Systeme-embarqu-/blob/main/tp_6/TP%206.1%20volume.svg)*[cite: 7]
+![Description de l'image]*(https://github.com/nktttt/Systeme-embarqu-/blob/main/tp_6/TP%206.1%20volume.svg)*[cite: 7]
 
 ## Installation
 - **IDE Arduino** : version `<ex: 2.3.4>`[cite: 7]
