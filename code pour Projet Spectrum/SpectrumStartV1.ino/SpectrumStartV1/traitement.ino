@@ -23,8 +23,18 @@ void __attribute__((noinline)) calculerSpectre() {
 // 2. Lire le niveau de cette octave, fht_oct_out[octaveForte], et le ranger dans niveauOctave.
 
 void analyser() {
-  calculerSpectre();
-  // À compléter à l'étape 2
+  calculerSpectre(); // remplit fht_oct_out[1..7] avec le niveau de chaque octave
+
+  // 1. Recherche du rang de l'octave la plus forte (entre 1 et NB_OCTAVES)
+  octaveForte = 1;
+  for (byte k = 2; k <= NB_OCTAVES; k++) {
+    if (fht_oct_out[k] > fht_oct_out[octaveForte]) {
+      octaveForte = k;
+    }
+  }
+
+  // 2. Récupération du niveau de cette octave dominante (0 à 255)
+  niveauOctave = fht_oct_out[octaveForte];
 }
 
 // Fourni. TEST 2 : niveaux des octaves 1 à 7, puis l'octave la plus forte et son niveau, une
