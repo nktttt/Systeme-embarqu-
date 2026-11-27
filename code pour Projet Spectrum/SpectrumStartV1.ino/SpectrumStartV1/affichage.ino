@@ -32,4 +32,18 @@ void testerAffichage() {
   niveauOctave = 5 * k * k;
   k = k % NB_OCTAVES + 1;
   delay(500);
+<<<<<<< HEAD:code pour Projet Spectrum/SpectrumStartV1.ino/SpectrumStartV1/affichage.ino
 }
+=======
+}
+// Pistes, étape par étape :
+// - afficher la bande de fréquences de l'octave au lieu de son rang ;
+// - écrire "silence" sous un seuil de niveau ;
+// - dessiner une barre par octave : caractères personnalisés (lcd.createChar(), puis lcd.clear()
+// obligatoire, sinon le texte suivant abîme les caractères) ;
+// - allumer une DEL de son trop fort, en tout ou rien (la MLI d'analogWrite() parasite le micro) ;
+// - changer le contenu de la ligne 2 par un bouton-poussoir (machine à états).
+git add .
+git commit -m "Integration de l'affichage"
+git push
+>>>>>>> 3d5c19a09e6d1ca7dd37fe3bfa538e97c9a7a8ed:code pour Projet Spectrum/affichage.ino/affichage.ino.ino
