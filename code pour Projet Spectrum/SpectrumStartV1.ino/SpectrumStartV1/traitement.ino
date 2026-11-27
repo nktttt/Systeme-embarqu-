@@ -52,6 +52,4 @@ void testerTraitementTraceur() {
 // - calculer la hauteur d'une barre par octave (tableau de 7 valeurs de 0 à 8) ;
 // - régler la sensibilité par un potentiomètre sur A0 ;
 // - calculer un niveau sonore en dB, puis pondéré A (oreille)
-git add .
-git commit -m "Integration du traitement"
-git push
+

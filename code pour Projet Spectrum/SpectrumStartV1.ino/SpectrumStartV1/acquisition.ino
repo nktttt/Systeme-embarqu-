@@ -1,23 +1,25 @@
 // ===== Rôle Acquisition =====
-const byte micPin = A1;
-const int ECHELLE = 8; // échantillon centré multiplié par 8 (précision FHT)
-int micMoy;
+const byte micPin = A1; // broche analogique du micro MAX9814
+const byte ECHELLE = 1; // facteur d'échelle pour le traceur série (TEST 1)
+int micMoy;          // composante continue du signal
 
 void initAcquisition() {
-  analogReference(EXTERNAL);
-  analogRead(micPin); // première conversion jetée pour valider AREF
+  analogReference(EXTERNAL); // référence 3,3 V sur AREF
+  analogRead(micPin);        // première conversion jetée pour valider AREF
 }
 
 void acquerir() {
-  // À compléter à l'étape 2
+  long somme = 0;
 
-// La sortie du micro oscille autour d'une tension continue (vers 1,25 V, soit environ 390 pas du
-// CAN) ; la FHT demande un signal centré sur 0.
-// 1. Lire FHT_SAMPLES_N (256) valeurs sur micPin avec analogRead(), les ranger dans fht_input[0]
-// à fht_input[255], et en faire la somme (variable de type long : 256 * 1023 dépasse un int).
-// 2. Calculer la moyenne, la ranger dans micMoy.
-// 3. Remplacer chaque fht_input[i] par (fht_input[i] - micMoy) * ECHELLE.
+  for (int i = 0; i < FHT_SAMPLES_N; i++) {
+    fht_input[i] = analogRead(micPin);
+    somme += fht_input[i];
+  }
 
+  micMoy = somme / FHT_SAMPLES_N;
+  for (int i = 0; i < FHT_SAMPLES_N; i++) {
+    fht_input[i] -= micMoy;
+  }
 }
 
 void testerAcquisition() {
