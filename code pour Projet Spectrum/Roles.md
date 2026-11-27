@@ -1,4 +1,4 @@
 Roles équipe : 
--  Acquisition : Théo
--  Traitement, Affichage : Rayan
+-  Acquisition, Affichage : Théo
+-  Traitement : Rayan
 -  Intégrateur : Nikita
