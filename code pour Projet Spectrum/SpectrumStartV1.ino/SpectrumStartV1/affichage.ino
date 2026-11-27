@@ -25,3 +25,6 @@ void testerAffichage() {
   k = k % NB_OCTAVES + 1;
   delay(500);
 }
+git add .
+git commit -m "Integration de l'affichage"
+git push
