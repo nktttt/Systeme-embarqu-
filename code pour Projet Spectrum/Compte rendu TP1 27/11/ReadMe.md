@@ -4,11 +4,11 @@ Rôles équipe :
 -  Intégrateur : Nikita
   
 Difficultés :
-- comprendre le cablage (entrée/sortie)
-- arriver a avancer à la même vitesse
-- manipulation git (televersement, importation)
+- Comprendre le cablage (entrée/sortie)
+- Arriver a avancer à la même vitesse
+- Manipulation git (televersement, importation)
   
 Solutions apportées :
-- aide entre nous
-- investissement plus dans le montage
-- communication nette
+- Aide entre nous
+- Investissement plus dans le montage
+- Communication nette
