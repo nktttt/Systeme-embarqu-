@@ -31,3 +31,6 @@ void testerAcquisition() {
 // - mesurer la durée des 256 conversions (micros()) et en déduire la fréquence d'échantillonnage ;
 // - l'augmenter : diviseur d'horloge du CAN (registre ADCSRA, bits ADPS2 à ADPS0) ;
 // - calculer l'amplitude crête à crête, puis la valeur efficace (somme des carrés) du signal.
+git add .
+git commit -m "Integration de l'acquisition"
+git push
