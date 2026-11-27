@@ -33,3 +33,6 @@ void testerAffichage() {
 // obligatoire, sinon le texte suivant abîme les caractères) ;
 // - allumer une DEL de son trop fort, en tout ou rien (la MLI d'analogWrite() parasite le micro) ;
 // - changer le contenu de la ligne 2 par un bouton-poussoir (machine à états).
+git add .
+git commit -m "Integration de l'affichage"
+git push
