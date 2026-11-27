@@ -1,0 +1,26 @@
+
+Titres
+
+• # Titre 1 à ###### Titre 6 (ajoutez toujours un espace après #)
+
+Mise en forme du texte
+
+• Gras : **texte**
+• Italique : *texte* ou _texte_
+• Gras et italique : ***texte***
+• Barré : ~~texte~~
+• Code en ligne : `code`
+
+Listes et citations
+
+• Liste à puces : - élément ou * élément
+• Liste numérotée : 1. élément
+• Liste de tâches : - [ ] À faire et - [x] Fait
+• Citation : > Citation
+
+Liens, images et blocs
+
+• Lien : [Texte du lien](https://exemple.com)
+• Image : ![Texte alternatif](https://exemple.com)
+• Bloc de code : encadrer avec trois accents graves (```)
+• Séparateur horizontal : --- sur une ligne isolée
