@@ -26,3 +26,4 @@ Solutions apportées :
   Contrôle l'affichage LCD1602 en mode 4 bits (broches `D2`-`D7`). `initDisplay()` initialise l'écran 16x2 et affiche l'en-tête du niveau d'octave sur la première ligne. `display()` efface les chiffres résiduels et met à jour le rang d'octave et le niveau de volume maximum sur la deuxième ligne. Contient `testDisplay()` (`TEST 3`) pour tester l'affichage sur des valeurs simulées.
 <img width="2862" height="1598" alt="image" src="https://github.com/user-attachments/assets/2d88cf21-7699-4f72-b215-61307cbaf23d" />
 <img width="2880" height="1676" alt="image" src="https://github.com/user-attachments/assets/fb9fbe0b-47f1-4b29-9ec6-7701d5a1685d" />
+<img width="1570" height="984" alt="image" src="https://github.com/user-attachments/assets/4463c13b-fda1-4b08-b4ae-4b8b26545a79" />
