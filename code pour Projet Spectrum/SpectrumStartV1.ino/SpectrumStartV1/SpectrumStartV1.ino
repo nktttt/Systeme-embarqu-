@@ -29,7 +29,7 @@
 #include <fht_reorder.h>
 #include <fht_mag_octave.h>
 #include <LiquidCrystal.h>
-
+//#define TEST 
 // 0 : normal | 1 : Acquisition | 2 : Traitement | 3 : Affichage | 4 : Traitement (traceur)
 // Remettre TEST à 0 avant chaque commit.
 #define TEST 0
