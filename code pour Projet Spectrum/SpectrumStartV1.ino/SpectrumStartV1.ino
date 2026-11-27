@@ -66,4 +66,7 @@ void loop() {
   afficher();
 #endif
 }
+
+git add .
+git commit -m "Integration du projet Spectrum"
 git push
